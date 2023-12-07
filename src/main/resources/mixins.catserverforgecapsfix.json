@@ -1,0 +1,12 @@
+{
+    "package": "com.lrw.catserverforgecapsfix.mixin",
+    "mixins": [ ],
+    "client": [ ],
+    "server": [
+        "MixinCatForgeItemCap"
+    ],
+    "refmap": "refmap.catserverforgecapsfix.json",
+    "required": true,
+    "minVersion": "0.8",
+    "compatibilityLevel": "JAVA_8"
+}

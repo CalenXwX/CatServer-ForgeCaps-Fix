@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All rights reserved"
+
+[[mods]]
+modId="catserverforgecapsfix"
+version="${file.jarVersion}"
+displayName="CatServer ForgeCaps Fix"
+credits="Calen"
+authors="Calen"
+description='''
+修复CatServer从Inventory中拿取物品时丢失ForgeCaps的bug
+'''
+
+[[dependencies.catserverforgecapsfix]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="SERVER"
+[[dependencies.catserverforgecapsfix]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="SERVER"
